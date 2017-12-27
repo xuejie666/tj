@@ -1,0 +1,103 @@
+body{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	display: flex;
+	flex-direction: column;
+	font-size: .12rem;
+}
+.head{
+	height: .5rem;
+	line-height: .5rem;
+	font-size: .16rem;
+	color: #fff;
+	background: #000;
+	text-align: center;
+}
+.main{
+	flex: 1;
+	position: relative;
+
+}
+.mark{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.1);
+}
+.box{
+	width: 90%;
+	height: 70%;
+	position: absolute;
+	left: 5%;
+	top: 15%;
+	background: #fff;
+	z-index: 99;
+	border-radius: 15px;
+}
+
+.box-top{
+	height: 1rem;
+	text-align: center;
+}
+.box-top dl dt{
+	width: 1.35rem;
+	height: .45rem;
+	margin:auto;
+	margin-top: 25px;
+}
+.box-top dl dt img{
+	width: 100%;
+	height: 100%;
+}
+.box-top dl dd{
+	margin-top: 10px;
+	font-size: .14rem;
+}
+.box-bottom{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+.box-bottom li{
+	width: 100%;
+	height: .35rem;
+	border-bottom: 1px solid #ccc;
+	margin-top: 25px;
+	display: flex;
+}
+.box-bottom li label{
+	width: .16rem;
+	height: .2rem;
+	margin: 12px 10px 0;
+
+}
+.box-bottom li label img{
+	width: 100%;
+	height: 100%;
+
+}
+.box-bottom li input{
+	border-width: 0;
+	line-height: .35rem;
+	outline: none;
+	background: none;
+	height: 100%;
+	flex: 1;
+}
+
+.btn{
+	margin-top: 20px;
+	width: 90%;
+	margin-left: 5%;
+	border-width: 0;
+	outline: none;
+	background: #2fb977;
+	height: .35rem;
+	border-radius: 5px;
+	color: #fff;
+}
